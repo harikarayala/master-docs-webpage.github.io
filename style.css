@@ -1,0 +1,77 @@
+html {
+/* this is adding a background image to the page */
+/* this is working */
+background-image: url('https://c1.staticflickr.com/9/8520/8638318985_5455aa19ed_k.jpg');
+background-repeat: no-repeat;
+background-position: center top;
+background-size: cover;
+background-attachment: fixed;
+}
+
+body {
+ width: 75%;
+ margin: 0 auto;
+ background: rgba(255,255,255,0.8);
+ padding: 0 20px 20px 20px;
+ border: 0px;
+ margin-top:25px;
+
+}
+
+
+h1{
+	/* this is styling the header */
+	/* this is working */
+	color: MidnightBlue;
+	text-transform: uppercase;
+	text-align: center;
+	
+}
+
+div.byline{
+	/* this is styling the byline */
+	/* this is working */
+	color: black;
+	text-align:center;
+}
+
+div.name{
+	text-align:center;
+}
+
+
+div.wrapper{
+	width: 50%;
+	margin: 0 auto;
+	margin: 5px;
+	text-align: center;
+	float: left;
+}
+
+img{
+	width:75%;
+}
+
+div.credit{
+	color: black;
+	font-size:10px;
+	margin-top: -10px;
+}
+
+div.caption{
+	width: 75%;
+	font-size: 12px;
+	margin: 0 auto;
+}
+
+
+p {
+	color: #444444;
+}
+
+div.contact{
+	position:relative;
+	top:0px;
+	right:0px;
+	width:100%;
+}
